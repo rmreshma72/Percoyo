@@ -1,0 +1,31 @@
+.brandImage{
+
+  width: 60%;
+  height: 20%;
+}
+.text {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-left:50%;
+}
+.carousel-control-prev{
+  background-color: #000;
+}
+.carousel-control-next{
+  background-color: #000;
+}
+input{
+  position: absolute;
+  right: 50%;
+}
+label{
+  color: blue;
+  font-weight: bold;
+}
+.row{
+  margin-top: 3%;
+}
+
+form{
+  margin-top: 2%;
+}

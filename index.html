@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Percoyo</title>
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+
+    <a class="navbar-brand" href=""><img class="brandImage" src="image/percoyo.png" alt=""></a>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="feature-box col-lg-6">
+        <div id="test-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active container-fluid">
+              <h2 class="text">Hai</h2>
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <h2 class="text">Hello</h2>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#test-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#test-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+      <div class="feature-box col-lg-6">
+        <form method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="fname"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="phone">Phone number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[789][0-9]{9}"><br>
+          <input id="submit" onclick="submit()" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
